@@ -8,7 +8,7 @@
 - [MainView.xaml](./CS/ValidationErrorHostBehavior/Views/MainView.xaml)
 - [MainViewMode.cs](./CS/ValidationErrorHostBehavior/ViewModels/MainViewModel.cs)
 <!-- default file list end -->
-# WPF MVVM - Validate a View with ValidationErrorsHostBehavior
+# WPF MVVM Framework - Validate a View with ValidationErrorsHostBehavior
 
 The example shows how to use the [ValidationErrorsHostBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.ValidationErrorsHostBehavior) to validate a View.
 
