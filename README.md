@@ -3,11 +3,6 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T885530)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list --> 
-## Files to look at:
-- [MainView.xaml](./CS/ValidationErrorHostBehavior/Views/MainView.xaml)
-- [MainViewMode.cs](./CS/ValidationErrorHostBehavior/ViewModels/MainViewModel.cs)
-<!-- default file list end -->
 # WPF MVVM Framework - Validate a View with ValidationErrorsHostBehavior
 
 The example shows how to use the [ValidationErrorsHostBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.ValidationErrorsHostBehavior) to validate a View.
@@ -17,6 +12,12 @@ The example shows how to use the [ValidationErrorsHostBehavior](https://docs.dev
 You can define the [ValidationErrorsHostBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.ValidationErrorsHostBehavior) for the root element to tracks all validation errors within the View. To enable validation error notifications, set the **NotifyOnValidationError** and **ValidatesOnDataErrors** properties to `true`.
 
 Use the [ValidationErrorsHostBehavior.HasErrors](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.ValidationErrorsHostBehavior.HasErrors) property to check whether a validation error occured.
+
+<!-- default file list --> 
+## Files to look at:
+- [MainView.xaml](./CS/ValidationErrorHostBehavior/Views/MainView.xaml)
+- [MainViewMode.cs](./CS/ValidationErrorHostBehavior/ViewModels/MainViewModel.cs)
+<!-- default file list end -->
 
 ## Documentation
 
