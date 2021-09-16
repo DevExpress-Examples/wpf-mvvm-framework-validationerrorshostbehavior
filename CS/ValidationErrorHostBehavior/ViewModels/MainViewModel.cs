@@ -8,6 +8,8 @@ namespace ValidationErrorHostBehavior.ViewModels
     {
         protected string firstname_;
         [Required]
+        [RegularExpression(@"^[a-zA-Z''-'\s]{1,40}$", 
+         ErrorMessage = "Characters are not allowed.")]
         public string FirstName
         {
             get { return this.firstname_; }
@@ -17,6 +19,8 @@ namespace ValidationErrorHostBehavior.ViewModels
 
         protected string lastname_;
         [Required]
+        [RegularExpression(@"^[a-zA-Z''-'\s]{1,40}$", 
+         ErrorMessage = "Characters are not allowed.")]
         public string LastName
         {
             get { return this.lastname_; }
