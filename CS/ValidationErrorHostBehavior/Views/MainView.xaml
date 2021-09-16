@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
     xmlns:ViewModels="clr-namespace:ValidationErrorHostBehavior.ViewModels"
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
     mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="300">
     <UserControl.DataContext>
         <ViewModels:MainViewModel/>
@@ -19,12 +20,12 @@
     <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
         <StackPanel Orientation="Horizontal">
             <TextBlock Text="First Name: "  VerticalAlignment="Center"/>
-            <TextBox Text="{Binding FirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, 
+            <dxe:TextEdit Text="{Binding FirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, 
                                 NotifyOnValidationError=True, ValidatesOnDataErrors=True}"  Width="120"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
             <TextBlock Text="Last Name: "  VerticalAlignment="Center"/>
-            <TextBox Text="{Binding LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, 
+            <dxe:TextEdit Text="{Binding LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, 
                                 NotifyOnValidationError=True, ValidatesOnDataErrors=True}"  Width="120"/>
         </StackPanel>
         <Button Content="Save" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="{Binding ElementName=validationErrorsHostBehavior, 
