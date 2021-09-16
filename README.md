@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # WPF MVVM Framework - Validate a View with ValidationErrorsHostBehavior
 
-The example shows how to use [ValidationErrorsHostBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.ValidationErrorsHostBehavior) to validate a View. 
+The example shows how to use [ValidationErrorsHostBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.ValidationErrorsHostBehavior) to validate a View.
 
 ## Overview
 
