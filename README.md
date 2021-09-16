@@ -15,8 +15,8 @@ Use the [ValidationErrorsHostBehavior.HasErrors](https://docs.devexpress.com/WPF
 
 <!-- default file list --> 
 ## Files to Look At:
-- [MainView.xaml](./CS/ValidationErrorHostBehavior/Views/MainView.xaml)
-- [MainViewMode.cs](./CS/ValidationErrorHostBehavior/ViewModels/MainViewModel.cs)
+- [MainView.xaml](./CS/ValidationErrorHostBehavior/Views/MainView.xaml) ([MainView.xaml](./VB/ValidationErrorHostBehavior/Views/MainView.xaml))
+- [MainViewMode.cs](./CS/ValidationErrorHostBehavior/ViewModels/MainViewModel.cs) ([MainViewMode.vb](./VB/ValidationErrorHostBehavior/ViewModels/MainViewModel.vb))
 <!-- default file list end -->
 
 ## Documentation
