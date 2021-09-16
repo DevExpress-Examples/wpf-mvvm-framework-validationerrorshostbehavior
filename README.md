@@ -26,4 +26,4 @@ Use the [ValidationErrorsHostBehavior.HasErrors](https://docs.devexpress.com/WPF
 
 ## More Examples
 
-- [WPF MVVM Framework - Validate a View with ValidationErrorsHostBehavior and POCO](https://github.com/DevExpress-Examples/wpf-mvvm-framework-validate-ui-container-with-validationerrorshostbehavior-and-poco)
+[WPF MVVM Framework - Validate a View with ValidationErrorsHostBehavior and POCO](https://github.com/DevExpress-Examples/wpf-mvvm-framework-validate-ui-container-with-validationerrorshostbehavior-and-poco)
