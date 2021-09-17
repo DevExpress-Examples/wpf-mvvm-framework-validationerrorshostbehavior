@@ -28,7 +28,7 @@
             <dxe:TextEdit Text="{Binding LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, 
                                 NotifyOnValidationError=True, ValidatesOnDataErrors=True}"  Width="120"/>
         </StackPanel>
-        <Button Content="Save" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="{Binding ElementName=validationErrorsHostBehavior, 
+        <Button Content="Login" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="{Binding ElementName=validationErrorsHostBehavior, 
                                                    Path=HasErrors, Converter={StaticResource BooleanNegationConverter}}"/>
     </StackPanel>
 </UserControl>
