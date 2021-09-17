@@ -13,6 +13,9 @@ You can define [ValidationErrorsHostBehavior](https://docs.devexpress.com/WPF/De
 
 Use the [ValidationErrorsHostBehavior.HasErrors](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.ValidationErrorsHostBehavior.HasErrors) property to check whether a validation error occured.
 
+![WPF MVVM Framework | ValidationErrorsHostBehavior](https://user-images.githubusercontent.com/12169834/133800151-e06bb37f-8477-4e97-a487-bc66357918de.png)
+
+
 <!-- default file list --> 
 ## Files to Look At
 - [MainView.xaml](./CS/ValidationErrorHostBehavior/Views/MainView.xaml) (**VB**: [MainView.xaml](./VB/ValidationErrorHostBehavior/Views/MainView.xaml))
