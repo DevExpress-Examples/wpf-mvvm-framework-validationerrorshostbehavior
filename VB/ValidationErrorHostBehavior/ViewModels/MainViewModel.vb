@@ -19,7 +19,6 @@ Namespace ValidationErrorHostBehavior.ViewModels
 			End Set
 		End Property
 
-
 		Protected lastname_ As String
 		<Required>
 		<RegularExpression("^[a-zA-Z''-'\s]{1,40}$", ErrorMessage := "Characters are not allowed.")>
